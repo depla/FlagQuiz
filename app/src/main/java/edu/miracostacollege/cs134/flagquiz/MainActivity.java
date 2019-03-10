@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         // DONE: Clear list of quiz countries (for prior games played)
         mQuizCountriesList.clear();
 
-        // TODO: Randomly add FLAGS_IN_QUIZ (10) countries from the mAllCountriesList into the mQuizCountriesList
+        // DONE: Randomly add FLAGS_IN_QUIZ (10) countries from the mAllCountriesList into the mQuizCountriesList
         int size = mAllCountriesList.size();
         int randomPosition;
         Country randomCountry;
@@ -195,13 +195,13 @@ public class MainActivity extends AppCompatActivity {
 
         mTotalGuesses++;
 
-        // TODO: Downcast the View v into a Button (since it's one of the 4 buttons)
+        // DONE: Downcast the View v into a Button (since it's one of the 4 buttons)
         Button clickedButton = (Button) v;
 
-        // TODO: Get the country's name from the text of the button
+        // DONE: Get the country's name from the text of the button
         String guessedName = clickedButton.getText().toString();
 
-        // TODO: If the guess matches the correct country's name, increment the number of correct guesses,
+        // DONE: If the guess matches the correct country's name, increment the number of correct guesses,
         if(guessedName.equalsIgnoreCase(mCorrectCountry.getName()))
         {
             mCorrectGuesses++;
