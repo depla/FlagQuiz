@@ -265,12 +265,12 @@ public class MainActivity extends AppCompatActivity {
             mAnswerTextView.setTextColor(getResources().getColor(R.color.incorrect_answer));
         }
 
-        // TODO: then display correct answer in green text.  Also, disable all 4 buttons (can't keep guessing once it's correct)
-        // TODO: Nested in this decision, if the user has completed all 10 questions, show an AlertDialog
-        // TODO: with the statistics and an option to Reset Quiz
+        // DONE: then display correct answer in green text.  Also, disable all 4 buttons (can't keep guessing once it's correct)
+        // DONE: Nested in this decision, if the user has completed all 10 questions, show an AlertDialog
+        // DONE: with the statistics and an option to Reset Quiz
 
-        // TODO: Else, the answer is incorrect, so display "Incorrect Guess!" in red
-        // TODO: and disable just the incorrect button.
+        // DONE: Else, the answer is incorrect, so display "Incorrect Guess!" in red
+        // DONE: and disable just the incorrect button.
 
 
 
