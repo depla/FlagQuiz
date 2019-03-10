@@ -24,6 +24,11 @@ import java.util.List;
 import edu.miracostacollege.cs134.flagquiz.model.Country;
 import edu.miracostacollege.cs134.flagquiz.model.JSONLoader;
 
+/**
+ * Dennis La CS 151 Flag Quiz In Class Assignment
+ *
+ * Activity that displays the game to the user and handles the gameplay.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Flag Quiz";
@@ -112,8 +117,6 @@ public class MainActivity extends AppCompatActivity {
                 mQuizCountriesList.add(randomCountry);
             }
         }
-
-        System.out.println(mQuizCountriesList.size() + "********************************");
 
         //Lets set the text of the 4 buttons to the first 4 country names
         for(int i = 0; i < mButtons.length; i++)
